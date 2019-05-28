@@ -1,4 +1,4 @@
-import {mapDtoValuesToEntity} from './mapper';
+import {mapDtoValuesToEntity} from './index';
 
 class MockEntity {
   x: string;
