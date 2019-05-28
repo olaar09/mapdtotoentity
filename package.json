@@ -1,0 +1,29 @@
+{
+  "name": "mapdtotoentity",
+  "version": "1.0.0",
+  "description": "A tiny typescript package to map data transfer objects to entity class. (Especially TypeOrm entities)",
+  "main": "main.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/olaaro9/mapdtotoentity.git"
+  },
+  "keywords": [
+    "Typeorm",
+    "NestJs",
+    "Typescript"
+  ],
+  "author": "Agboola Yusuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olaaro9/mapdtotoentity/issues"
+  },
+  "homepage": "https://github.com/olaaro9/mapdtotoentity#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2"
+  }
+}
