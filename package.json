@@ -1,6 +1,6 @@
 {
   "name": "mapdtotoentity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny typescript package to map data transfer objects to entity class. (Especially TypeOrm entities)",
   "main": "index.ts",
   "scripts": {
