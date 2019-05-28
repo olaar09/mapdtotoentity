@@ -37,5 +37,5 @@ const entityMapper = new mapDtoValuesToEntity<MockDTO, MockEntity>();
 # - Map DTO to Entity
 const mapResult = entityMapper.map(dtoInstance, mockEntityInstance);
 
-# - Would print put your entity class with all the values from DTO class
+# - Would print your entity class with all the values from DTO class
 console.log(mapResult)
