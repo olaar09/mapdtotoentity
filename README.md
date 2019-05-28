@@ -13,22 +13,22 @@ import { mapDtoValuesToEntity } from 'mapdtotoentity/dist';
 
 
 # - Entity class
-class MockEntity {
-  x: string;
-  y: number;
+class MockEntity {\
+  x: string;\
+  y: number;\
 }
 
 
 # - DTO class
-class MockDTO {
-  x: string;
-  y: number;
+class MockDTO {\
+  x: string;\
+  y: number;\
 }
 
 
 # - Instantiate DTO class and add values
-let dtoInstance = new MockDTO();
-dtoInstance.x = 'Something';
+let dtoInstance = new MockDTO();\
+dtoInstance.x = 'Something';\
 dtoInstance.y = 40;
 
 # - Instantiate Mapper class;
@@ -38,4 +38,4 @@ const entityMapper = new mapDtoValuesToEntity<MockDTO, MockEntity>();
 const mapResult = entityMapper.map(dtoInstance, mockEntityInstance);
 
 # - Would print put your entity class with all the values from DTO class
-console.log(mapResult) 
+console.log(mapResult)
